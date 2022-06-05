@@ -1,0 +1,24 @@
+{
+  "name": "express-prometheus",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "For learning integrate express with prometheus",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bew089006/express-prometheus.git"
+  },
+  "author": "Wattanan Saekang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bew089006/express-prometheus/issues"
+  },
+  "homepage": "https://github.com/bew089006/express-prometheus#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
