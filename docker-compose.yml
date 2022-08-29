@@ -1,0 +1,14 @@
+version: '3'
+
+services: 
+  app: 
+    env_file: .env
+    container_name: app
+    restart: always
+    build: .
+    ports: 
+      - "3001:3000"
+    command: npm run server
+
+networks:
+  default:
