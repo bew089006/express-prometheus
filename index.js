@@ -1,12 +1,13 @@
 import express from 'express';
 
-const APP_PORT = 3000;
-
 const app = express();
+
+const APP_PORT = process.env.APP_PORT || 3000;
 
 app.get('/', (req, res, next) => {
 	res.status(200).send({
 		message: 'Hello world',
+		checked: `Test read ENV CHECK = ${process.env.CHECK}`,
 	});
 });
 
